@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# https://www.terviseamet.ee/et/koroonaviirus/avaandmed
 
 import requests, json
 
