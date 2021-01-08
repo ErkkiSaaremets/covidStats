@@ -8,7 +8,10 @@ def jprint(obj):
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
 
-response = requests.get("https://opendata.digilugu.ee/opendata_covid19_vaccination_total.json")
+
+api_link = "https://opendata.digilugu.ee/opendata_covid19_vaccination_total.json" 
+
+response = requests.get(api_link)
 jprint(response.json())
 
 
