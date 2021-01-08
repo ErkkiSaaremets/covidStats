@@ -4,7 +4,7 @@
 import requests, json
 
 def jprint(obj):
-    #create formatted strint of the python json object
+    #create formatted string of the python json object
     text = json.dumps(obj, sort_keys=True, indent=4)
     print(text)
 
